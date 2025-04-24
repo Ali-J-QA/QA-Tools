@@ -1,0 +1,24 @@
+**********************************************************************
+* About
+**********************************************************************
+
+Pagemaster is a chrome extension to extract page elements.
+At the moment it extracts a csv with the following columns:
+- element label
+- element type
+- path if the element is a link
+- xpath to element (for quick reference in automation*)
+
+*xpath might not always be the best selector; make sure to review
+
+**********************************************************************
+* How to use
+**********************************************************************
+
+Open chrome://extensions/ and enable Developer mode
+Click "Load unpacked" and navigate to the Pagemaster folder
+Once loaded, navigate to the page you want to profile, click on the plugin
+and generate the file - it will download to the default download directory
+
+If you make any changes to the plugin, click the refresh icon on the extension 
+to reload it (make sure to reload any open tabs you want to profile)
